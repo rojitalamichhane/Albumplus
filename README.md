@@ -1,3 +1,6 @@
+![Image of Yaktocat](https://github.com/rojitalamichhane/Albumplus/blob/master/albumplus-bootstrap4-screenshot.png)
+
+
 # TODO Sandeep: Add Basic Usage, Advanced Usage, Gulp Tasks and Installation guide here.
 
 
