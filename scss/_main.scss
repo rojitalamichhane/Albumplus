@@ -1,0 +1,51 @@
+/*
+Theme Name: Album Plus - Your Favorite Stuffs
+Theme URI: https://www.orbitthemes.com
+Author: Sandeep Prasad Bhatt
+Author URI: http://www.sandeepbhatt.com.np
+Description: Album Plus - Bootstrap 4 Template Showing Your Favorite Stuffs
+Create date: April 3, 2018
+Version: 1.0
+License: Commercial, All rights reserved - orbitthemes.com
+Tags: Responsive Bootstrap 4 template , bootstrap 4 Photography template, bootstrap4 template, Album template
+Text Domain: orbitthemes.com
+*/
+
+#main {
+    #main-banner {
+        .carousel-inner {
+            .carousel-item {
+                @include media-breakpoint-down(xs) {
+                    height: 160px;
+                }
+                @include media-breakpoint-only(sm) {
+                    height: 300px;
+                }
+                @include media-breakpoint-up(md) {
+                    height: 560px;
+                }
+                img {
+                    height: 100%;
+                    display: block;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .album {
+        .card {
+            .card-img-top {
+                height: 200px;
+            }
+        }
+    }
+    #collection-heading {
+        text-align: center;
+        margin-bottom: 20px;
+        span {
+            font-size: 2rem;
+            border-bottom: 1px solid $light-black;
+            padding: 5px;
+        }
+    }
+}
